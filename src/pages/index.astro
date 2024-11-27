@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>¡Hola, investigador! 🔎</h1>
+			<p>
+				Bienvenido a Taskify, un blog que te ayudará a ser más eficiente, organizar tus tareas y proyectos de una manera sencilla, moderna y utilizando las últimas tecnologías. Revisa nuestra sección de <a href="/blog">posts</a> para comenzar a mejorar tu productividad. Si quieres conocer más sobre nosotros, visita <a href="/about"> esta sección</a>.
+			</p>
+			<img style="width: 100%; max-height: 400px; object-fit: cover;" src="https://i.pinimg.com/originals/57/94/fd/5794fd54cdd1c630a06c25c76826d0cc.gif" alt="Gif de una persona trabajando en una computadora" />
+		</main>
+		<Footer />
+	</body>
+</html>
