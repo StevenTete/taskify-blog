@@ -1,68 +1,35 @@
-# Astro Starter Kit: Blog
+# Taskify
 
-```sh
-npm create astro@latest -- --template blog
-```
+Welcome to **Taskify**, your go-to blog for improving productivity and organizing tasks efficiently! 🚀
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Built with Astro](https://img.shields.io/badge/Built%20with-Astro-00D8FF.svg)](https://astro.build/)
+[![Template by Maxi Ferreira](https://img.shields.io/badge/Template%20by-Max%20Ferreira-F96D38.svg)](https://github.com/charca)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Overview
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+**Taskify** is a blog designed to help researchers, students, and professionals stay organized, boost productivity, and make their workflows more efficient. By combining actionable advice with modern tools and technologies, Taskify provides the insights needed to manage tasks, projects, and daily activities like a pro.
 
-Features:
+This blog was created using a template by [Maxi Ferreira](https://github.com/charca), who has contributed a clean, fast, and SEO-optimized base template.
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## Screenshots
 
-## 🚀 Project Structure
+![Taskify Homepage](./screenshots/Homepage.png)
+![Taskify Blog](./screenshots/posts.png)
+![Taskify About](./screenshots/about.png)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Usage
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+To start using Taskify, simply [visit the website](https://tu-sitio.com) and dive into our articles designed to help you improve your productivity and research processes.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Feedback
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+We value your feedback! If you have suggestions or encounter any issues, feel free to [open an issue](https://github.com/StevenTete/taskify/issues) on our GitHub repository.
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+## License
 
-Any static assets, like images, can be placed in the `public/` directory.
+Taskify is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to fork, modify, and share!
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+*Taskify - Streamline Your Workflow, Boost Your Productivity.*
