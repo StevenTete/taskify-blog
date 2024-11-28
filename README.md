@@ -14,7 +14,7 @@ This blog was created using a template by [Maxi Ferreira](https://github.com/cha
 
 ## Screenshots
 
-![Taskify Homepage](./screenshots/Homepage.png)
+![Taskify Homepage](./screenshots/homepage.png)
 ![Taskify Blog](./screenshots/posts.png)
 ![Taskify About](./screenshots/about.png)
 
